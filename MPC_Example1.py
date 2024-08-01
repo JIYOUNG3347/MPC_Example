@@ -36,7 +36,7 @@ def objective_function(angular_velocities):
     cost_history.append(final_position_cost)
     return final_position_cost
 
-# Open-Loop Control
+# MPC Control
 horizon = 100
 control_input = np.zeros(horizon)
 
